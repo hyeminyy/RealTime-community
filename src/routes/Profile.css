@@ -1,0 +1,32 @@
+.profileForm input[type="text"] {
+    flex: 1;
+    width: 200px;
+    height: 16px;;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+    margin-right: 10px;
+    margin-top: 15px;
+  }
+  .profileForm input[type="submit"] {
+    background-color: #57aeff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+
+  .logout{
+    background-color: #57aeff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+    width: 375px;
+  }

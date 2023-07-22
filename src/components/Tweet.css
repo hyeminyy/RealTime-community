@@ -1,0 +1,90 @@
+
+  html,body {
+   
+    background-color: #9ecaff;
+    text-align: center;
+  }
+
+  .tweet {
+    background-color: rgb(255, 255, 255);
+    /* cursor:move; */
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 5px 30px rgba(0, 0, 0, 0.2);
+    border: 3px;
+    max-width: 500px; /* 최대 너비를 500px로 설정 */
+    margin: 15px auto; /* 수정된 부분: 위쪽과 아래쪽에 15px의 마진을 주고 가운데 정렬 */
+  }
+  
+  .tweetEdit {
+  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  /* updatebtn 내용 */
+  .formInput {
+    background-color: rgb(206, 238, 255);
+    border: none;
+    width: 500px;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+  }
+  /* updatebtn 버튼*/
+  .formBtn {
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #4c91d6;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+/* 삭제버튼 */
+  .deleteBtn{
+    border: none;
+    width: 60px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #4c91d6;
+    color: #fff;
+    cursor: pointer;
+    text-align: center;
+    
+    
+  }
+/* 수정버튼 */
+  .editBtn{
+    width: 50px;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #4c91d6;
+    color: #fff;
+    cursor: pointer;
+    margin: 5px;
+    text-align: center;
+  }
+  
+  /* 내용 */
+  p{
+    font-size: 15px;
+  }
+
+
+  .tweetContent {
+    display: flex;
+    align-items: center;
+  }
+  
+  .tweetContent p {
+    flex: 1;
+    margin-right: 10px;
+  }
+  
+  .tweetButtons {
+    display: flex;
+    align-items: center;
+  }
+  

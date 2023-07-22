@@ -1,0 +1,102 @@
+.auth-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #9ecaff;
+}
+h1{
+  color: #fff;
+}
+.auth-container form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #FFF;
+  padding: 20px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.auth-container input {
+  text-align: center;
+  background-color: #ECF0F1;
+  border: 2px solid transparent;
+  border-radius: 3px;
+  font-size: 16px;
+  font-weight: 200;
+  padding: 10px 0;
+  width: 250px;
+  transition: border .5s;
+  margin-bottom: 10px;
+}
+
+.auth-container input:focus {
+  border: 2px solid #3498DB;
+  box-shadow: none;
+}
+
+.auth-container input[type="submit"] {
+  border: none;
+  background: hsl(209, 100%, 83%);
+  color: #ffffff;
+  font-size: 16px;
+  line-height: 25px;
+  padding: 10px 0;
+  text-decoration: none;
+  text-shadow: none;
+  border-radius: 3px;
+  box-shadow: none;
+  transition: 0.25s;
+  width: 250px;
+  margin-bottom: 10px;
+}
+
+
+.auth-container input[type="submit"]:hover {
+  background-color: #5cbeff;
+}
+
+.auth-container span {  
+  color: #FFF;
+  cursor: pointer;
+  margin-bottom: 16px;
+}
+
+.auth-container button {
+  border: none;
+  background: #FFF;
+  color: #ffffff;
+  font-size: 16px;
+  line-height: 25px;
+  padding: 10px 0;
+  text-decoration: none;
+  text-shadow: none;
+  border-radius: 5px;
+  box-shadow: none;
+  transition: 0.25s;
+  width: 200px;
+  margin-bottom: 10px;
+}
+.auth-container .googlebtn{
+  background-color: #DF4A32;
+  
+}
+.auth-container .gitbtn{
+  background-color: #49639F;
+  
+}
+
+.auth-container .googlebtn:hover {
+  background-color: #ff6952;
+}
+.auth-container .gitbtn:hover {
+  background-color: #4f79da;
+}
+
+.auth-container .error-message {
+  color: #FFF;
+  margin-bottom: 10px;
+}
